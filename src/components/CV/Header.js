@@ -16,7 +16,7 @@ const Header = () => (
       <a href="/">
         <img
           src="/felipe.jpeg"
-          alt="Marat Dospolov"
+          alt="Felipe Austríaco"
           width={80}
           className="rounded-full max-w-3/4"
         />

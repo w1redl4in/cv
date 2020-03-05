@@ -3,12 +3,12 @@ module.exports = {
   pathPrefix: '/cv',
   title: 'Blog by Felipe Austríaco',
   keywords:
-    'account surfer, trello bookmark, trello, productivity, javascript, Marat Dospolov, choosy windows, browser selector',
+    'account surfer, trello bookmark, trello, productivity, javascript, austriaco, choosy windows, browser selector',
   subtitle: 'Developer. Learner.',
   copyright: '© 2020 | Brasil, São Paulo',
   disqusShortname: 'felipeaustriaco',
   postsPerPage: 20,
-  googleAnalyticsId: 'UA-6589522-7',
+  googleAnalyticsId: 'UA-159877720-1',
   menu: [
     {
       label: 'CV',
