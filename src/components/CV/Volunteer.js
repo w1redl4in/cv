@@ -5,6 +5,7 @@ import data from './data.json'
 const Volunteer = () => (
   <>
     <h3 className="text-center mt-1 mb-0">Volunteer</h3>
+    <br />
     <Card>
       {data.volunteer.map((activity, i) => (
         <Row

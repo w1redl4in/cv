@@ -23,7 +23,9 @@ const CV = () => (
       <TopSkills />
       <SkillList />
       <Experience />
+      <br />
       <Volunteer />
+      <br />
       <Education />
       <Footer />
     </Content>

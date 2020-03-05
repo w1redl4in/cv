@@ -5,6 +5,7 @@ import data from './data.json'
 const Education = () => (
   <>
     <h3 className="text-center mt-1 mb-0">Education</h3>
+    <br />
     <Card className="education">
       {data.education.map((institution, i) => (
         <Row type="flex" justify="start" key={institution.place} className="text-lg">
