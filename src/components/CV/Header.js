@@ -24,12 +24,6 @@ const Header = () => (
     </Col>
     <Col span={10} className="text-lg">
       <div>Brasil, São Paulo, São Paulo</div>
-      {/* <div>
-        telegram:{' '}
-        <a href="https://t.me/dospolov" target="_blank" rel="noopener noreferrer">
-          dospolov
-        </a>
-      </div> */}
       <div>
         github: <a href="https://github.com/w1redl4in">w1redl4in</a>
       </div>
