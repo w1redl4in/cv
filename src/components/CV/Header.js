@@ -10,7 +10,7 @@ const Header = () => (
     </Col>
     <Col span={8} className="text-right">
       <h2 className="text-2xl">FELIPE AUSTRÍACO</h2>
-      <h5>SOFTWARE DEVELOPER</h5>
+      <h5>WEB DEVELOPER</h5>
     </Col>
     <Col span={4} className="text-center">
       <a href="/">
