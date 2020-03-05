@@ -1,0 +1,339 @@
+{
+  "experiments": [
+    {
+      "name": "Account Surfer",
+      "locationIcon": "windows-store.svg",
+      "description": "Quickly switch between accounts and browsers",
+      "builtWith": ["electron", "react", "redux", "reduxsaga", "fabric"],
+      "link": "https://www.microsoft.com/en-us/p/account-surfer/9phvp9rjr7r7"
+    },
+    {
+      "name": "Trello Bookmark",
+      "locationIcon": "chrome-webstore.svg",
+      "description": "Store your bookmarks as Trello Cards",
+      "builtWith": ["apollo", "react", "antd"],
+      "link": "https://chrome.google.com/webstore/detail/trello-bookmark/ephoopolmejjnjkbbdcfgoohokhnekca",
+      "sourceCode": "https://github.com/dospolov/trello-bookmark"
+    },
+    {
+      "name": "Blog",
+      "locationIcon": "chrome.svg",
+      "description": "Read about productivity and development",
+      "builtWith": ["gatsby", "react", "netlify"],
+      "link": "https://dospolov.com",
+      "sourceCode": "https://github.com/dospolov/gatsby-starter-blog-and-cv"
+    }
+  ],
+  "tech": {
+    "react": {
+      "name": "React",
+      "logo": "react.svg",
+      "website": "https://github.com/facebook/react",
+      "displayInTopList": true
+    },
+    "redux": {
+      "name": "Redux",
+      "logo": "redux.svg",
+      "website": "https://redux.js.org/",
+      "displayInTopList": true
+    },
+    "reduxsaga": {
+      "name": "Redux-Saga",
+      "logo": "redux-saga.svg",
+      "website": "https://redux-saga.js.org/",
+      "displayInTopList": true
+    },
+    "materialui": {
+      "name": "Material UI",
+      "logo": "material.png",
+      "website": "https://material-ui.com/",
+      "displayInTopList": true
+    },
+    "vscode": {
+      "name": "VSCode",
+      "logo": "vscode.png",
+      "website": "https://code.visualstudio.com/",
+      "displayInTopList": true
+    },
+    "gatsby": {
+      "name": "Gatsby",
+      "logo": "gatsby.svg",
+      "website": "https://www.gatsbyjs.org/",
+      "displayInTopList": true
+    },
+    "antd": {
+      "name": "Ant Design",
+      "logo": "ant-design.svg",
+      "website": "https://ant.design/",
+      "displayInTopList": true
+    },
+    "insomnia": {
+      "name": "Insomnia",
+      "logo": "insomnia.png",
+      "website": "https://insomnia.rest/",
+      "displayInTopList": true
+    },
+    "fabric": {
+      "name": "Fabric UI",
+      "logo": "fabric.svg",
+      "website": "https://developer.microsoft.com/en-us/fabric",
+      "displayInTopList": false
+    },
+    "netlify": {
+      "name": "Netlify",
+      "logo": "netlify.svg",
+      "website": "https://www.netlify.com/",
+      "displayInTopList": false
+    }
+  },
+  "skills": {
+    "soft": [
+      {
+        "skillText": "Focus on business needs",
+        "selfValue": 100,
+        "feedbackValue": 100
+      },
+      {
+        "skillText": "Focus on code's quality",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "Communication",
+        "selfValue": 90,
+        "feedbackValue": 95
+      },
+      {
+        "skillText": "Integrity",
+        "selfValue": 95,
+        "feedbackValue": 95
+      }
+    ],
+    "hard": [
+      {
+        "skillText": "React",
+        "selfValue": 85,
+        "feedbackValue": 90
+      },
+      {
+        "skillText": "Node",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "Styled Components",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "AntD",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "Material UI",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "Express.js",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "Jest",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "Mocha",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "MongoDB",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "React-Testing-Library",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "Flexbox",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "Grid",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "REST",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "GIT",
+        "selfValue": 80,
+        "feedbackValue": 85
+      },
+      {
+        "skillText": "Rancher",
+        "selfValue": 80,
+        "feedbackValue": 85
+      }
+    ],
+    "otherHard": [
+      "AWS",
+      "Bootstrap",
+      "CSS 3",
+      "Handlebars",
+      "HTML 5",
+      "Illustrator",
+      "Jest",
+      "JIRA",
+      "LESS",
+      "REST",
+      "SASS",
+      "Socket.io",
+      "Styled Components",
+      "Vanilla JS",
+      "Kubernetes"
+    ],
+    "otherSoft": [
+      "Critical Thinking",
+      "Problem Solving",
+      "Project Recovery",
+      "UX / UI Prototyping"
+    ]
+  },
+  "workExperience": [
+    {
+      "company": {
+        "name": "Hub Fintech",
+        "logoHeight": 40,
+        "logo": "hub.jpg",
+        "period": "Dez 2019 - Now"
+      },
+      "projects": [
+        {
+          "name": "Conta Aqui",
+          "logoHeight": 40,
+          "logo": "logo-conta-aqui.png",
+          "role": "Software Developer Jr.",
+          "description": "Working mostly as a fullstack developer, giving more attention in Front on a Card Manager System for external and internal usage",
+          "stack": {
+            "me": [
+              "React.js",
+              "TypeScript",
+              "Redux",
+              "Redux-Saga",
+              "Jest",
+              "React-Testing-Library",
+              "Reactotron",
+              "ESLint",
+              "Prettier",
+              "Node.js",
+              "MongoDB",
+              "MySQL",
+              "Docker",
+              "Unit Tests",
+              "Rancher",
+              "AntD",
+              "Material UI",
+              "APIs",
+              "Express",
+              "Mongoose",
+              "Sequelize",
+              "JWT",
+              "Redis",
+              "Dev Tools",
+              "Gitlab"
+            ],
+            "all": [
+              "Kubernetes",
+              "Pipeline",
+              "SonarQube",
+              "Continuous Integration",
+              "Continuous Delivery",
+              "AWS"
+            ]
+          },
+          "achievements": [
+            "Making decisions about libs and architecture in both Front and Back end",
+            "Concepts like SOLID, Clean Code and TDD",
+            "CI/CD with feature + unit test",
+            "Feeling of self-evolution"
+          ]
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "Hub Fintech",
+        "logoHeight": 40,
+        "logo": "hub.jpg",
+        "period": "Jul 2019 - Dez 2019"
+      },
+      "projects": [
+        {
+          "name": "Selfie",
+          "logoHeight": 40,
+          "logo": "blank.png",
+          "role": "Trainee",
+          "description": "I acted on a system payment monolith, mostly on front-end developing small changes and fixing simple bugs",
+          "stack": {
+            "me": [
+              "React.js",
+              "Node.js",
+              "Redux",
+              "Redux-Saga",
+              "Reactotron",
+              "MongoDB",
+              "MySQL",
+              "Docker",
+              "Rancher",
+              "AntD",
+              "Material UI",
+              "APIs",
+              "Express",
+              "Redis"
+            ],
+            "all": ["Rancher", "Redis", "RabbitMq", "APIs", "Docker", "MySQL"]
+          },
+          "achievements": [
+            "The first experience in programming ecosystem",
+            "Got bussiness rules and development flow slightly quickly",
+            "Agile Development",
+            "Scrum ceremonies",
+            "High develiry rate in Production environment"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "place": "Centro Paula Souza - Faculdade de Tecnologia Hirant Sanazar (Fatec Osasco)",
+      "period": "2019 - 2021",
+      "degree": "Redes de Computadores"
+    },
+    {
+      "place": "ETEC Osasco II",
+      "period": "2017 - 2018",
+      "degree": "Curso Técnico em Informática"
+    }
+  ],
+  "volunteer": [
+    {
+      "place": "Centro Paula Souza",
+      "logo": "fatec.png",
+      "logoHeight": 50,
+      "period": "2019",
+      "description": "I conducted a period of reinforcement exercises for lessons like Linux / DHCP / Python / HTML-CSS."
+    }
+  ]
+}
