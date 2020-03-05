@@ -274,23 +274,8 @@
           "role": "Trainee",
           "description": "I acted on a system payment monolith, mostly on front-end developing small changes and fixing simple bugs",
           "stack": {
-            "me": [
-              "React.js",
-              "Node.js",
-              "Redux",
-              "Redux-Saga",
-              "Reactotron",
-              "MongoDB",
-              "MySQL",
-              "Docker",
-              "Rancher",
-              "AntD",
-              "Material UI",
-              "APIs",
-              "Express",
-              "Redis"
-            ],
-            "all": ["Rancher", "Redis", "RabbitMq", "APIs", "Docker", "MySQL"]
+            "me": ["Ruby", "Rails", "jQuery", "Bootstrap", "REST"],
+            "all": ["Rancher", "Redis", "RabbitMq", "Docker", "MySQL"]
           },
           "achievements": [
             "The first experience in programming ecosystem",
