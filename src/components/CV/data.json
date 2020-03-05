@@ -72,18 +72,6 @@
       "logo": "insomnia.png",
       "website": "https://insomnia.rest/",
       "displayInTopList": true
-    },
-    "fabric": {
-      "name": "Fabric UI",
-      "logo": "fabric.svg",
-      "website": "https://developer.microsoft.com/en-us/fabric",
-      "displayInTopList": false
-    },
-    "netlify": {
-      "name": "Netlify",
-      "logo": "netlify.svg",
-      "website": "https://www.netlify.com/",
-      "displayInTopList": false
     }
   },
   "skills": {
