@@ -1,5 +1,6 @@
 import React from 'react'
-import { Card, Row, Col, Divider, Tag } from 'antd'
+import { Card, Row, Divider, Tag } from 'antd'
+import { Column } from './styles'
 import data from './data.json'
 
 const Experience = () => (
@@ -8,10 +9,10 @@ const Experience = () => (
     <Card className="work-experience">
       {data.workExperience.map((item, i) => (
         <Row type="flex" justify="space-around" align="middle" key={item.company.name}>
-          <Divider orientation="left" className={i === 0 && 'mt-0'}>
+          <Divider orientation="center" className={i === 0 && 'mt-0'}>
             {item.company.period}
           </Divider>
-          <Col span={4} className="hide-mobile">
+          <Column span={4} className="hide-mobile img-test">
             {item.company.logo ? (
               <div>
                 <img
@@ -23,8 +24,8 @@ const Experience = () => (
             ) : (
               <h2 className="text-2xl">{item.company.name}</h2>
             )}
-          </Col>
-          <Col xs={24} sm={24} md={20} lg={20} xl={20}>
+          </Column>
+          <Column xs={24} sm={24} md={20} lg={20} xl={20}>
             {item.projects.map((project, i) => (
               <Row
                 type="flex"
@@ -34,15 +35,15 @@ const Experience = () => (
                 className="mb-5"
               >
                 {project.logo && (
-                  <Col span={5}>
+                  <Column span={5}>
                     <img
                       src={`/companies/${project.logo}`}
                       alt={project.name}
                       className="max-w-3/4 inline"
                     />
-                  </Col>
+                  </Column>
                 )}
-                <Col span={project.logo ? 19 : 24} className="text-lg">
+                <Column span={project.logo ? 19 : 24} className="text-lg">
                   <h3>{project.role}</h3>
                   <p>{project.description}</p>
                   {project.achievements && (
@@ -66,11 +67,11 @@ const Experience = () => (
                         </Tag>
                       ))}
                   </div>
-                </Col>
+                </Column>
                 {item.projects.length - 1 > i && <Divider />}
               </Row>
             ))}
-          </Col>
+          </Column>
         </Row>
       ))}
     </Card>
