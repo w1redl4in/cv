@@ -264,7 +264,7 @@
         {
           "name": "Selfie",
           "logoHeight": 40,
-          "logo": "blank.png",
+          "logo": "card.svg",
           "role": "Trainee",
           "description": "I acted on a system payment monolith, mostly on front-end developing small changes and fixing simple bugs",
           "stack": {
