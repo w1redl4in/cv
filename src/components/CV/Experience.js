@@ -18,7 +18,7 @@ const Experience = () => (
                 <img
                   src={`/companies/${item.company.logo}`}
                   alt={item.company.name}
-                  className="max-w-3/4 inline"
+                  style={{ width: '50px', minHeight: '50px' }}
                 />
               </div>
             ) : (
@@ -35,11 +35,11 @@ const Experience = () => (
                 className="mb-5"
               >
                 {project.logo && (
-                  <Column span={5}>
+                  <Column span={5} style={{ display: 'flex' }}>
                     <img
                       src={`/companies/${project.logo}`}
                       alt={project.name}
-                      className="max-w-3/4 inline"
+                      style={{ width: '110px', minHeight: '10px' }}
                     />
                   </Column>
                 )}
