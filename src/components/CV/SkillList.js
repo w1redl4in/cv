@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Row, Col, Tag } from 'antd'
+import { Column } from './styles.js'
 import data from './data.json'
 
 const SkillList = () => (
@@ -13,8 +14,12 @@ const SkillList = () => (
       </Col>
     </Row>
     <Card className="">
-      <Row type="flex" justify="space-around">
-        <Col span={11}>
+      <Row
+        type="flex"
+        justify="space-around"
+        style={{ alignItems: 'center', justifyContent: 'center' }}
+      >
+        <Col span={11} style={{ textAlign: 'left' }}>
           <div>
             {data.skills.soft.map(skillData => (
               <Tag color="#fc4eb6" key={skillData.skillText} className="mb-1 text-base">
@@ -28,7 +33,7 @@ const SkillList = () => (
             </Tag>
           ))}
         </Col>
-        <Col span={11} offset={1}>
+        <Col span={11} offset={1} style={{ textAlign: 'left' }}>
           <div>
             {data.skills.hard.map(skillData => (
               <Tag color="#fc3737" key={skillData.skillText} className="mb-1 text-base">

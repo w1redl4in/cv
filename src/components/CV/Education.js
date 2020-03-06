@@ -1,5 +1,6 @@
 import React from 'react'
-import { Card, Row, Col, Divider } from 'antd'
+import { Card, Row, Col, Divider, Typography } from 'antd'
+import { Column } from './styles'
 import data from './data.json'
 
 const Education = () => (
@@ -8,16 +9,21 @@ const Education = () => (
     <br />
     <Card className="education">
       {data.education.map((institution, i) => (
-        <Row type="flex" justify="start" key={institution.place} className="text-lg">
-          <Divider orientation="left" className={i === 0 && 'mt-0'}>
+        <Row
+          type="flex"
+          justify="space-around"
+          key={institution.place}
+          className="text-lg"
+        >
+          <Divider orientation="center" className={i === 0 && 'mt-0'}>
             {institution.period}
           </Divider>
-          <Col span={10} style={{ textAlign: 'left' }}>
+          <Column span={10} style={{ textAlign: 'center' }}>
             <h3>{institution.place}</h3>
-          </Col>
-          <Col span={13} style={{ textAlign: 'center' }}>
-            <h3>{institution.degree}</h3>
-          </Col>
+          </Column>
+          <Column span={13} style={{ textAlign: 'center' }}>
+            <Typography.Text>{institution.degree}</Typography.Text>
+          </Column>
         </Row>
       ))}
     </Card>

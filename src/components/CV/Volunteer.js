@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Col, Divider, Row } from 'antd'
+import { Column } from './styles'
 import data from './data.json'
 
 const Volunteer = () => (
@@ -15,16 +16,16 @@ const Volunteer = () => (
           key={activity.place}
           className="text-lg"
         >
-          <Divider orientation="left" className={i === 0 && 'mt-0'}>
+          <Divider orientation="center" className={i === 0 && 'mt-0'}>
             {activity.period}
           </Divider>
-          <Col span={6}>
+          <Column span={6}>
             <img
               src={`/companies/${activity.logo}`}
               alt={activity.place}
               className="max-w-3/4 inline"
             />
-          </Col>
+          </Column>
           <Col span={17}>
             <h3>{activity.description}</h3>
           </Col>
