@@ -6,6 +6,7 @@ export const Column = styled(({ ...props }) => <Col {...props} />)`
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 20px;
   }
 `

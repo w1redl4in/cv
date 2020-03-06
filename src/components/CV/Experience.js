@@ -12,7 +12,7 @@ const Experience = () => (
           <Divider orientation="center" className={i === 0 && 'mt-0'}>
             {item.company.period}
           </Divider>
-          <Column span={4} className="hide-mobile img-test">
+          <Column span={4}>
             {item.company.logo ? (
               <div>
                 <img
