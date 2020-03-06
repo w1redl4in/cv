@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Col } from 'antd'
 
 export const Column = styled(({ ...props }) => <Col {...props} />)`
-  @media (max-width: 765px) {
+  @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     margin: 20px;
