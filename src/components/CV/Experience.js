@@ -53,16 +53,34 @@ const Experience = () => (
                       ))}
                     </ul>
                   )}
-                  <div className="py-1">
+                  <div
+                    className="py-1"
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      flexWrap: 'wrap'
+                    }}
+                  >
                     {project.stack.me &&
                       project.stack.me.map(tech => (
-                        <Tag color="#ab71fc" key={tech} className="mb-1 text-base">
+                        <Tag
+                          color="#ab71fc"
+                          style={{ margin: '5px' }}
+                          key={tech}
+                          className="mb-1 text-base"
+                        >
                           {tech}
                         </Tag>
                       ))}
                     {project.stack.all &&
                       project.stack.all.map(tech => (
-                        <Tag color="#c7a5f7" key={tech} className="mb-1 text-base">
+                        <Tag
+                          color="#c7a5f7"
+                          key={tech}
+                          style={{ margin: '5px' }}
+                          className="mb-1 text-base"
+                        >
                           {tech}
                         </Tag>
                       ))}
