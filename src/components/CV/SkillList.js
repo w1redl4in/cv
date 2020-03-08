@@ -1,6 +1,5 @@
 import React from 'react'
 import { Card, Row, Col, Tag } from 'antd'
-import { Column } from './styles.js'
 import data from './data.json'
 
 const SkillList = () => (
@@ -14,26 +13,22 @@ const SkillList = () => (
       </Col>
     </Row>
     <Card className="">
-      <Row
-        type="flex"
-        justify="space-around"
-        style={{ alignItems: 'center', justifyContent: 'center' }}
-      >
-        <Col span={11} style={{ textAlign: 'left' }}>
+      <Row type="flex" justify="space-around">
+        <Col span={11} style={{ textAlign: 'center' }}>
           <div>
             {data.skills.soft.map(skillData => (
-              <Tag color="#fc4eb6" key={skillData.skillText} className="mb-1 text-base">
+              <Tag color="#fc4eb6" key={skillData.skillText} className="mb-1 text-base ">
                 {skillData.skillText}
               </Tag>
             ))}
           </div>
           {data.skills.otherSoft.map(skill => (
-            <Tag color="#F992D1" key={skill} className="mb-1 text-base">
+            <Tag color="#F992D1" key={skill} className="mb-1 text-base text-black">
               {skill}
             </Tag>
           ))}
         </Col>
-        <Col span={11} offset={1} style={{ textAlign: 'left' }}>
+        <Col span={11} offset={2} style={{ textAlign: 'center' }}>
           <div>
             {data.skills.hard.map(skillData => (
               <Tag color="#fc3737" key={skillData.skillText} className="mb-1 text-base">
@@ -42,7 +37,7 @@ const SkillList = () => (
             ))}
           </div>
           {data.skills.otherHard.map(skill => (
-            <Tag color="#f78585" key={skill} className="mb-1 text-base">
+            <Tag color="#f78585" key={skill} className="mb-1 text-base text-black">
               {skill}
             </Tag>
           ))}

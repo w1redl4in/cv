@@ -79,7 +79,7 @@ const Experience = () => (
                           color="#c7a5f7"
                           key={tech}
                           style={{ margin: '5px' }}
-                          className="mb-1 text-base"
+                          className="mb-1 text-base text-black"
                         >
                           {tech}
                         </Tag>

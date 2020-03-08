@@ -153,13 +153,9 @@
         "selfValue": 80,
         "feedbackValue": 85
       },
+
       {
-        "skillText": "Flexbox",
-        "selfValue": 80,
-        "feedbackValue": 85
-      },
-      {
-        "skillText": "Grid",
+        "skillText": "CSS 3",
         "selfValue": 80,
         "feedbackValue": 85
       },
@@ -168,21 +164,15 @@
         "selfValue": 80,
         "feedbackValue": 85
       },
+
       {
-        "skillText": "GIT",
-        "selfValue": 80,
-        "feedbackValue": 85
-      },
-      {
-        "skillText": "Rancher",
+        "skillText": "Docker",
         "selfValue": 80,
         "feedbackValue": 85
       }
     ],
     "otherHard": [
       "AWS",
-      "Bootstrap",
-      "CSS 3",
       "Handlebars",
       "HTML 5",
       "Illustrator",
@@ -196,6 +186,54 @@
     "otherSoft": ["Critical Thinking", "Problem Solving", "Project Recovery", "UX / UI"]
   },
   "workExperience": [
+    {
+      "company": {
+        "name": "Hub Fintech",
+        "logoHeight": 40,
+        "logo": "hub.jpg",
+        "period": "Fev 2020 - Now"
+      },
+      "projects": [
+        {
+          "name": "Portal Admin",
+          "logoHeight": 40,
+          "logo": "administrador.svg",
+          "role": "Web Developer Jr.",
+          "description": "Working mostly as a Front-End Developer ☻",
+          "stack": {
+            "me": [
+              "React.js",
+              "Redux",
+              "Redux-Saga",
+              "AntD",
+              "TypeScript",
+              "Jest",
+              "React-Testing-Library",
+              "Reactotron",
+              "Node.js",
+              "MongoDB",
+              "MySQL",
+              "Docker",
+              "REST",
+              "Express",
+              "Mongoose",
+              "Sequelize",
+              "JWT",
+              "Gitlab"
+            ],
+            "all": [
+              "Kubernetes",
+              "Pipeline",
+              "SonarQube",
+              "Continuous Integration",
+              "Continuous Delivery",
+              "AWS"
+            ]
+          },
+          "achievements": ["UI / UX Prototyping"]
+        }
+      ]
+    },
     {
       "company": {
         "name": "Hub Fintech",
@@ -264,7 +302,7 @@
         {
           "name": "Selfie",
           "logoHeight": 40,
-          "logo": "card.svg",
+          "logo": "pagar.svg",
           "role": "Trainee",
           "description": "I acted on a system payment monolith, mostly on front-end developing small changes and fixing simple bugs",
           "stack": {

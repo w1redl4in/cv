@@ -8,7 +8,7 @@ const Header = () => (
         <img src="/logos/pdf.svg" height="50" alt="pdf icon" />
       </a>
     </Col>
-    <Col span={8} className="text-right">
+    <Col span={8} className="text-center">
       <h2 className="text-2xl">FELIPE AUSTRÍACO</h2>
       <h5>WEB DEVELOPER</h5>
     </Col>
@@ -22,7 +22,7 @@ const Header = () => (
         />
       </a>
     </Col>
-    <Col span={10} className="text-lg">
+    <Col span={10} className="text-center">
       <div>Brasil, São Paulo, São Paulo</div>
       <div>
         github: <a href="https://github.com/w1redl4in">w1redl4in</a>
