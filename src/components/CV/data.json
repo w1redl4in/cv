@@ -199,9 +199,10 @@
           "logoHeight": 40,
           "logo": "administrador.svg",
           "role": "Web Developer Jr.",
-          "description": "Working mostly as a Front-End Developer ☻",
+          "description": "Developing an application for automating the Product creation routine, mainly working as Front-End Developer",
           "stack": {
             "me": [
+              "ES6+",
               "React.js",
               "Redux",
               "Redux-Saga",
@@ -213,7 +214,7 @@
               "Docker",
               "REST",
               "JWT",
-              "Gitlab"
+              "Gitlab - Github"
             ],
             "all": [
               "Kubernetes",
@@ -244,6 +245,7 @@
           "description": "Working mostly as a fullstack developer, giving more attention in Front on a Card Manager System for external and internal usage",
           "stack": {
             "me": [
+              "ES6+",
               "React.js",
               "Redux",
               "Redux-Saga",
@@ -265,7 +267,7 @@
               "JWT",
               "Redis",
               "Dev Tools",
-              "Gitlab"
+              "Gitlab - Github"
             ],
             "all": [
               "Kubernetes",
@@ -323,7 +325,7 @@
     {
       "place": "Rocketseat",
       "period": "2019 - Now",
-      "degree": "Aprendizado e desenvolvimento de aplicações completas em tecnologias como Node Js, React Js e React Native"
+      "degree": "Bootcamp focado no desenvolvimento de diversas aplicações em tecnologias como Node.js, React.js, React-Native e serviços relacionados."
     },
     {
       "place": "ETEC Osasco II",
