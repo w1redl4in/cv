@@ -21,8 +21,8 @@ module.exports = {
     bio: 'Developer. Learner. Challenger.',
     contacts: {
       github: 'w1redl4in',
-      twitter: 'lainwired_',
-      facebook: 'felipeaustriaco'
+      twitter: 'https://twitter.com/lainwired_',
+      facebook: 'l4inw1red'
     }
   }
 }

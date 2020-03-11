@@ -27,6 +27,7 @@ const Header = () => (
       <div>
         github: <a href="https://github.com/w1redl4in">w1redl4in</a>
       </div>
+      <div>phone: (11) 97581-2099</div>
     </Col>
   </Row>
 )
