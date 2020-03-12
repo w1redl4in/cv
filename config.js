@@ -22,7 +22,7 @@ module.exports = {
     contacts: {
       github: 'w1redl4in',
       twitter: 'lainwired_',
-      facebook: 'felipeaustriaco'
+      facebook: 'l4inw1red'
     }
   }
 }
