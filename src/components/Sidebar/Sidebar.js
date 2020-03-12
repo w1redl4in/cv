@@ -43,7 +43,12 @@ const Sidebar = ({ hideMobile }) => {
         >
           A day without studying is another day between you and your goal
         </Typography.Paragraph>
-        <Lottie options={defaultOptions} width={150} height={150} />
+        <Lottie
+          options={defaultOptions}
+          width={300}
+          height={300}
+          isClickToPauseDisabled
+        />
       </Row>
     </Sider>
   )
