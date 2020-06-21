@@ -7,7 +7,7 @@ import Categories from './Categories'
 import Tags from './Tags'
 import { useSiteMetadata } from '../../hooks'
 import Lottie from 'react-lottie'
-import animationData from './cat.json'
+import animationData from './dead.json'
 
 const { Sider } = Layout
 
@@ -31,11 +31,6 @@ const Sidebar = ({ hideMobile }) => {
       <Author author={author} />
       <Contacts contacts={author.contacts} />
       <Divider className="sidebar-divider" />
-      {/* <Menu menu={menu} /> */}
-      {/* <div className="hide-mobile">
-        <Categories />
-        <Tags />
-      </div> */}
       <Row align="middle" justify="center">
         <Typography.Paragraph
           type="secondary"

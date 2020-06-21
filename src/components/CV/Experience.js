@@ -12,9 +12,15 @@ const Experience = () => (
           <Divider orientation="center" className={i === 0 && 'mt-0'}>
             {item.company.period}
           </Divider>
-          <Column span={4}>
+          <Column span={4} style={{ display: 'flex', flexDirection: 'column' }}>
             {item.company.logo ? (
               <div>
+                <h4
+                  style={{ textAlign: 'left', width: '110px', marginLeft: '-8px' }}
+                  className="mb-5"
+                >
+                  Company
+                </h4>
                 <img
                   src={`/companies/${item.company.logo}`}
                   alt={item.company.name}
@@ -35,7 +41,10 @@ const Experience = () => (
                 className="mb-5"
               >
                 {project.logo && (
-                  <Column span={5} style={{ display: 'flex' }}>
+                  <Column span={5} style={{ display: 'flex', flexDirection: 'column' }}>
+                    <h4 style={{ textAlign: 'center', width: '110px' }} className="mb-5">
+                      Project
+                    </h4>
                     <img
                       src={`/companies/${project.logo}`}
                       alt={project.name}

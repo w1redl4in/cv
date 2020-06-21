@@ -191,6 +191,80 @@
         "name": "Hub Fintech",
         "logoHeight": 40,
         "logo": "hub.jpg",
+        "period": "Jun 2020 - Now"
+      },
+      "projects": [
+        {
+          "name": "Whitelabel Bank",
+          "logoHeight": 40,
+          "logo": "whitelabel.svg",
+          "role": "Web Developer Pl.",
+          "description": "A Whitelabel Bank Front-End",
+          "stack": {
+            "me": ["ES6+", "React.js", "Redux", "Redux Saga", "AntD", "TypeScript"],
+            "all": [
+              "Kubernetes",
+              "Pipeline",
+              "Continuous Integration",
+              "Continuous Delivery",
+              "AWS"
+            ]
+          },
+          "achievements": [
+            "Capable of making a whole new application from start",
+            "Implemented Clean Code in React's way",
+            "I learned a lot just by making mistakes"
+          ]
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "Hub Fintech",
+        "logoHeight": 40,
+        "logo": "hub.jpg",
+        "period": "May 2020 - Now"
+      },
+      "projects": [
+        {
+          "name": "Onboarding",
+          "logoHeight": 40,
+          "logo": "onboarding.svg",
+          "role": "Web Developer Pl.",
+          "description": "Onboarding is a register/validator API for users integrate with our internal services, it works similar to Nubank's way",
+          "stack": {
+            "me": [
+              "ES6+",
+              "Node.js",
+              "TypeORM",
+              "Jest",
+              "Yup",
+              "TypeScript",
+              "MongoDB",
+              "Docker",
+              "REST"
+            ],
+            "all": [
+              "Kubernetes",
+              "Pipeline",
+              "SonarQube",
+              "Continuous Integration",
+              "Continuous Delivery",
+              "AWS"
+            ]
+          },
+          "achievements": [
+            "A most deep understanding of Back-End at general",
+            "Get to know new ways of integrating micro-services"
+          ]
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "Hub Fintech",
+        "logoHeight": 40,
+        "logo": "hub.jpg",
         "period": "Fev 2020 - Now"
       },
       "projects": [
