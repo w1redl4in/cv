@@ -4,7 +4,7 @@ import Author from './Author'
 import Contacts from './Contacts'
 import { useSiteMetadata } from '../../hooks'
 import Lottie from 'react-lottie'
-import animationData from './dead.json'
+import animationData from './stay-home.json'
 
 const { Sider } = Layout
 
@@ -38,8 +38,8 @@ const Sidebar = ({ hideMobile }) => {
         <Divider style={{ height: '0' }} />
         <Lottie
           options={defaultOptions}
-          width={200}
-          height={200}
+          width={450}
+          height={450}
           isClickToPauseDisabled
         />
       </Row>
