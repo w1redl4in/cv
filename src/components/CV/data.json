@@ -227,11 +227,11 @@
       },
       "projects": [
         {
-          "name": "Onboarding",
+          "name": "WhiteLabel",
           "logoHeight": 40,
-          "logo": "onboarding.svg",
+          "logo": "dinheiro.svg",
           "role": "Web Developer Pl.",
-          "description": "Onboarding is a register/validator API for users integrate with our internal services, it works similar to Nubank's way",
+          "description": "A WhiteLabel Bank Back-End",
           "stack": {
             "me": [
               "ES6+",
@@ -250,12 +250,13 @@
               "SonarQube",
               "Continuous Integration",
               "Continuous Delivery",
-              "AWS"
+              "RabbitMQ"
             ]
           },
           "achievements": [
             "A most deep understanding of Back-End at general",
-            "Get to know new ways of integrating micro-services"
+            "Get to know new ways of integrating micro-services",
+            "First time implementing a steps-based API for users to Sign Up"
           ]
         }
       ]
@@ -265,7 +266,7 @@
         "name": "Hub Fintech",
         "logoHeight": 40,
         "logo": "hub.jpg",
-        "period": "Fev 2020 - Now"
+        "period": "Fev 2020 - z"
       },
       "projects": [
         {
