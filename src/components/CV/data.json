@@ -195,7 +195,7 @@
       },
       "projects": [
         {
-          "name": "Whitelabel Bank",
+          "name": "Digital Bank Whitelabel",
           "logoHeight": 40,
           "logo": "whitelabel.svg",
           "role": "Web Developer Pl.",
@@ -211,9 +211,9 @@
             ]
           },
           "achievements": [
-            "Capable of making a whole new application from start",
-            "Implemented Clean Code in React's way",
-            "I learned a lot just by making mistakes"
+            "Concept of WhiteLabel",
+            "The mindset that I am able to build anything",
+            "Happy to see the code I wrote working in something so big as a digital bank"
           ]
         }
       ]

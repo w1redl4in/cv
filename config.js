@@ -18,7 +18,7 @@ module.exports = {
   author: {
     name: 'Felipe Austríaco',
     photo: '/felipe.jpeg',
-    bio: 'Developer. Learner. Challenger.',
+    bio: 'Developer. Challenger.',
     contacts: {
       github: 'w1redl4in',
       twitter: 'lainwired_',
