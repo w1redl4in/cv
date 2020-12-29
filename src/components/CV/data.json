@@ -67,10 +67,10 @@
       "website": "https://ant.design/",
       "displayInTopList": true
     },
-    "styled-components": {
-      "name": "styled-components",
-      "logo": "styled-components.svg",
-      "website": "https://styled-components.com/",
+    "insomnia": {
+      "name": "Insomnia",
+      "logo": "insomnia.png",
+      "website": "https://insomnia.rest/",
       "displayInTopList": true
     }
   },
