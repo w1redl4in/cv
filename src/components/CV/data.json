@@ -191,6 +191,49 @@
         "name": "Hub Fintech",
         "logoHeight": 40,
         "logo": "hub.jpg",
+        "period": "Dez 2020 - Now"
+      },
+      "projects": [
+        {
+          "name": "Ecommerce Application",
+          "logoHeight": 40,
+          "logo": "buy.svg",
+          "role": "Web Developer Pl.",
+          "description": "I had an idea of creating a complete Ecommerce for learning and teaching friends. We developed everything on this application.",
+          "stack": {
+            "me": [
+              "ES6+",
+              "TypeScript",
+              "React.js",
+              "Redux",
+              "Redux-Saga",
+              "AntD",
+              "Node.js",
+              "Express",
+              "JWT",
+              "Nodemailer",
+              "Heroku",
+              "Netlifly",
+              "Docker",
+              "TypeORM",
+              "PostgreSQL",
+              "Jest",
+              "Reactotron",
+              "REST",
+              "Continuous Integration",
+              "Continuous Delivery",
+              "Github"
+            ]
+          },
+          "achievements": ["End to End application", "Deploy on Heroku", "E-mail sender"]
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "Hub Fintech",
+        "logoHeight": 40,
+        "logo": "hub.jpg",
         "period": "Jun 2020 - Now"
       },
       "projects": [
